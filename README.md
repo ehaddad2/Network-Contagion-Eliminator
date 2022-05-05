@@ -27,6 +27,7 @@ What is CI?
 
 CI is defined by the following equation: <img src="http://www.sciweavers.org/tex2img.php?eq=CI%28i%2Cr%29%3D%28k_i-1%29%5Csum_%7Bj%5Cin%E2%88%82Ball%28i%2Cr%29%20%7D%5E%7B%7D%28k_j-1%29&bc=Black&fc=White&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="CI(i,r)=(k_i-1)\sum_{j\in∂Ball(i,r) }^{}(k_j-1)" width="262" height="43" />
 
+
 - i is the node whose collective influence we are calculating and ki is the degree of node i.
 - δBall(i, r) is the set of nodes whose shortest path from node i is exactly r. If you could draw a circle with radius r links around node i, nodes j are the nodes that fall on the perimeter of the circle.
 - After calculating the collective influence of a node and removing it from the graph, all nodes from this one up till but not including r+1 are affected. If we want to isolate multipe nodes, it would be very inefficient to go through the array of CI values and update each one if only the vertices inside circle r+1 are affected. Thus we can define Ball(i, r+1) as being all the nodes within this radius (but not on the perimeter). These CI values can then be selectively extracted and updated.
