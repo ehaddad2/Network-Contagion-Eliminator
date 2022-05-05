@@ -1,13 +1,6 @@
 import java.util.*;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import java.awt.Graphics;
 import java.io.*;
-/*Elias Haddad (URID: ehaddad2)
- * 4/12/22
- * CSC 172 
- * project 3
- */
+
 public class StopContagion {
 	
 	public static void main(String[] args) throws IOException {      
