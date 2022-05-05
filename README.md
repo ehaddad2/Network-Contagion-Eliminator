@@ -25,7 +25,7 @@ Description: This program contains 2 seperate ways to inoculate a graph based on
 
 What is CI?
 
-CI is defined by the following equation: <img src="http://www.sciweavers.org/tex2img.php?eq=CI%28i%2Cr%29%3D%28k_i-1%29%5Csum_%7Bj%5Cin%E2%88%82Ball%28i%2Cr%29%20%7D%5E%7B%7D%28k_j-1%29&bc=Black&fc=White&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="CI(i,r)=(k_i-1)\sum_{j\in∂Ball(i,r) }^{}(k_j-1)" width="262" height="43" />
+CI is defined by the following equation:<img src="https://render.githubusercontent.com/render/math?math=CI(i,r)=(k_i-1)\sum_{j\in∂Ball(i,r) }^{}(k_j-1)">
 
 
 - i is the node whose collective influence we are calculating and ki is the degree of node i.
