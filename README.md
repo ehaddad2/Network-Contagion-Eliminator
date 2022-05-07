@@ -20,7 +20,7 @@ Invoking the program:
 
 •	input_file: the name of the file describing the graph. mandatory argument.
 
-Based on the number of nodes you want to remove, the progrma will output to the console for each node the node number removed alongside its respective CI value.
+Based on the number of nodes you want to remove, the program will output to the console for each node the node number removed alongside its respective CI value.
 
 Description: This program contains 2 seperate ways to inoculate a graph based on a problem proposed by Prof. Panos Louridas, Department of Management Science and Technology, Athens University of Economics and Business. The first main way (inoculate1) will find the vertices in the graph holding the greatest influence (ie. greatest degree) and isolate them. The second (inoculate2) will find the vertices that hold the highest collective influence (CI) value and isolate those vertices. The radius at which to probe can be determined by the user, as well as the number of nodes the user wishes to remove. 
 
